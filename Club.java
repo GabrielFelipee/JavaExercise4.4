@@ -25,6 +25,7 @@ public class Club
      */
     public void join(Membership member)
     {
+        listMembers.add(member);
     }
 
     /**
